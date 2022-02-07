@@ -5,15 +5,21 @@ the activasion base funcation we are working with is
 each file as a section of configuration part, example ,if we want to check certain parameters ,
 how many times we want to run relu on a certain amount of epchs, if we want to get the best score of relu,etc..
 after configuration simply run all to see the results.
+
 ------------------------------------------------
 file : global_parameters_finder_cifar10.ipyn
 ________________________________________________
 this file run on cifar10 image's, first section is the part needed to be configuret by the user want's and it looks for the best activaion funcation for resnet 9.
 
+
+
 ------------------------------------------------
 file : inequalityFinder.ipynb
 ________________________________________________
 this file is an exmaple to transform our funcation to a inequality funcation, simply add the parameters to the sec section and run
+
+
+
 
 ------------------------------------------------
 file : global_parameters_resnet9_cifar100.ipynb
@@ -22,6 +28,8 @@ this file run on cifar100 image's, the third section is the part needed to be co
 test the activaion funcation by comparing to relu and with an additonal option , to transform the certain funcation we found to an inequality funcation,after setting and configuration,
 simply run all.
 this note notebook run on resnet9 neural network, and the focus is to find an activasion funcation that give better result's then relu,
+
+
 
 
 ------------------------------------------------
