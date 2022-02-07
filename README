@@ -6,6 +6,8 @@ each file as a section of configuration part, example ,if we want to check certa
 how many times we want to run relu on a certain amount of epchs, if we want to get the best score of relu,etc..
 after configuration simply run all to see the results.
 
+
+
 ------------------------------------------------
 file : global_parameters_finder_cifar10.ipyn
 ________________________________________________
