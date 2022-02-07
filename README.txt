@@ -1,5 +1,6 @@
 the activasion base funcation we are working with is 
--function :  x + (L / (Q * (x + I) ** P + Z)) - (L / (Q * (x - I) ** P + Z)):https://www.desmos.com/calculator/0hiyjyun2f (move points to play with the parameters
+-function :  x + (L / (Q * (x + I) ** P + Z)) - (L / (Q * (x - I) ** P + Z))
+-link to desmos graph :https://www.desmos.com/calculator/0hiyjyun2f (move points to play with the parameters)
 
 each file as a section of configuration part, example ,if we want to check certain parameters ,
 how many times we want to run relu on a certain amount of epchs, if we want to get the best score of relu,etc..
