@@ -1,4 +1,4 @@
-the activasion base funcation we are working with is 
+the activation base function we are working with is 
 -function :  x + (L / (Q * (x + I) ** P + Z)) - (L / (Q * (x - I) ** P + Z))
 -link to desmos graph :https://www.desmos.com/calculator/0hiyjyun2f (move points to play with the parameters)
 
@@ -9,14 +9,14 @@ after configuration simply run all to see the results.
 ------------------------------------------------
 file : global_parameters_finder_cifar10.ipyn
 ________________________________________________
-this file run on cifar10 image's, first section is the part needed to be configuret by the user want's and it looks for the best activaion funcation for resnet 9.
+this file run on cifar10 image's, first section is the part needed to be configure by the user want's and it looks for the best activation function for resnet 9.
 
 
 
 ------------------------------------------------
 file : inequalityFinder.ipynb
 ________________________________________________
-this file is an exmaple to transform our funcation to a inequality funcation, simply add the parameters to the sec section and run
+this file is an exmaple to transform our function to a inequality function, simply add the parameters to the sec section and run
 
 
 
@@ -24,10 +24,9 @@ this file is an exmaple to transform our funcation to a inequality funcation, si
 ------------------------------------------------
 file : global_parameters_resnet9_cifar100.ipynb
 ________________________________________________
-this file run on cifar100 image's, the third section is the part needed to be configuret by the user want's,it can be configuried to find the best activaion funcation ,
-test the activaion funcation by comparing to relu and with an additonal option , to transform the certain funcation we found to an inequality funcation,after setting and configuration,
-simply run all.
-this note notebook run on resnet9 neural network, and the focus is to find an activasion funcation that give better result's then relu,
+this file run on cifar100 image's, the third section is the part needed to be configure by the user want's,it can be configuried to find the best activation function ,
+test the activation function by comparing to relu and with an additonal option , to transform the certain function we found to an inequality funcation,after configuration,
+simply run all. this note notebook run on resnet9 neural network, and the focus is to find an activation function that give better results then relu.
 
 
 
@@ -35,6 +34,6 @@ this note notebook run on resnet9 neural network, and the focus is to find an ac
 ------------------------------------------------
 file : layers_unique_parameters_cifar100.ipynb
 ________________________________________________
-same as before , but this time with the option to look specifc for each layer what is the best activaion funcation, 
+same as before , but this time with the option to look specifc for each layer what is the best activation function, 
 and not a global one for all the layers, configuration at the sec section, run on cifar 100 data, 
-use resnet9 neural network with the option to set a diffrent activaion funcation parameters for each of the 8 layers 
+use resnet9 neural network with the option to set a diffrent activation funcation parameters for each of the 8 layers 
